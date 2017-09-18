@@ -6,6 +6,7 @@ This tool will decompose a rectilinear polygon into a set of non-overlapping rec
 
 A polygon is a set of point array in either clockwise or counter-clockwise order, and the first point in the point array will not be repeated in the last point in the point array.
 
+## Algorithm
 The key algorithm is as follows:
 + Pk: the leftmost point with the smallest Y-coordinate.
 + Pl: the leftmost point except Pk with the smallest Y-coordinate.
@@ -21,5 +22,5 @@ The key algorithm is as follows:
     F(Pl.x, Pm.y)
 }</code></pre>
 
-Reference: 
+## Reference: 
 * Kevin D. Gourley and Douglas M. Green, "A Polygon-to-Rectangle Conversion Algorithm," In Proc. IEEE Computer Graphics and Applications, vol. 3, issue. 1, pp. 31-36, Jan, 1983.
