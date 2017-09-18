@@ -15,7 +15,7 @@ The key algorithm is as follows:
 
 <pre><code>while (polygon is not empty) {
     Find Pk, Pl, Pm.
-    Form the rectangle: <Pk, (Pl.x, Pm.y)>   
+    Form the rectangle: &lt;Pk, (Pl.x, Pm.y)&gt;
     F(Pk)
     F(Pl)
     F(Pk.x, Pm.y)
