@@ -108,7 +108,7 @@ template <typename T>
 static void updatePolygon(std::list< Coor<T> >& polygon, const Coor<T>& Pk, const Coor<T>& Pl, const Coor<T>& Pm)
 {
     auto iter = polygon.begin();
-    const Coor<int> upl(Pk.getX(), Pm.getY()), upr(Pl.getX(), Pm.getY());
+    const Coor<T> upl(Pk.getX(), Pm.getY()), upr(Pl.getX(), Pm.getY());
     bool insert_upl = true, insert_upr = true;
 
     // update policy:
